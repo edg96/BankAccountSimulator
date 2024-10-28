@@ -2,7 +2,7 @@
 
 This banking simulator provides a simple and interactive web application to manage multiple user accounts. Users can securely log in, view their transaction history, transfer funds, request loans, and close accounts with ease. Designed with a clean, minimalistic UI, this app provides a practical way to enhance skills in JavaScript, CSS, and HTML while also introducing date formatting, locale-based currency handling, and session management.
 
-[Take a live look at my website powered by Vercel](https://link/)
+[Take a live look at my website powered by Vercel](https://bank-account-simulator.vercel.app/)
 
 <img src="./images/screen.png" />
 
