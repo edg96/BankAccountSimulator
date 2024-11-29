@@ -1,11 +1,7 @@
 "use strict";
 
-// BANK ACCOUNT SIMULATOR APP
-
 // ------------------------------------
 // Data
-// ------------------------------------
-
 const account1 = {
   owner: "Ryan Reynolds",
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
@@ -67,8 +63,6 @@ const accounts = [account1, account2, account3];
 
 // ------------------------------------
 // Elements
-// ------------------------------------
-
 const labelWelcome = document.querySelector(".welcome");
 const labelDate = document.querySelector(".date");
 const labelBalance = document.querySelector(".balance__value");
@@ -95,12 +89,7 @@ const inputCloseUsername = document.querySelector(".form__input--user");
 const inputClosePin = document.querySelector(".form__input--pin");
 
 // ------------------------------------
-// Functions
-
-// ------------------------------------
 // Utility Functions
-// ------------------------------------
-
 const formatMovementDate = function (date, locale) {
   const calcDaysPassed = (date1, date2) =>
     Math.round(Math.abs(date2 - date1) / (1000 * 60 * 60 * 24));
@@ -122,8 +111,6 @@ const formatCur = function (value, locale, currency) {
 
 // ------------------------------------
 // Account Actions
-// ------------------------------------
-
 const displayMovements = function (acc, sort = false) {
   containerMovements.innerHTML = "";
   const movs = sort
@@ -209,8 +196,6 @@ const startLogOutTimer = function () {
 
 // ------------------------------------
 // Event Handlers
-// ------------------------------------
-
 let currentAccount, timer;
 
 btnLogin.addEventListener("click", function (e) {
