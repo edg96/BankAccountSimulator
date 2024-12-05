@@ -9,11 +9,11 @@ This banking simulator provides a simple and interactive web application to mana
 ## Features
 
 - **Clean and minimalist design**
-- **Multi-account support**: Each user has unique transactions, currency, and locale.
-- **Fund Transfers**: Easily send money between accounts.
-- **Loan Requests**: Conditional loan requests based on account balance.
-- **Session Timeout**: Automatic logout after inactivity.
-- **Account Closure:** Securely close an account after verifying credentials.
+- **Multi-account support** - Each user has unique transactions, currency, and locale.
+- **Fund Transfers** - Easily send money between accounts.
+- **Loan Requests** - Conditional loan requests based on account balance.
+- **Session Timeout** - Automatic logout after inactivity.
+- **Account Closure:** - Securely close an account after verifying credentials.
 
 ## Usage
 
