@@ -8,12 +8,12 @@ This banking simulator provides a simple and interactive web application to mana
 
 ## Features
 
-- Clean and minimalist design
-- Multi-account support: Each user has unique transactions, currency, and locale.
-- Fund Transfers: Easily send money between accounts.
-- Loan Requests: Conditional loan requests based on account balance.
-- Session Timeout: Automatic logout after inactivity.
-- Account Closure: Securely close an account after verifying credentials.
+- **Clean and minimalist design**
+- **Multi-account support**: Each user has unique transactions, currency, and locale.
+- **Fund Transfers**: Easily send money between accounts.
+- **Loan Requests**: Conditional loan requests based on account balance.
+- **Session Timeout**: Automatic logout after inactivity.
+- **Account Closure:** Securely close an account after verifying credentials.
 
 ## Usage
 
@@ -47,4 +47,4 @@ This project highlights the importance of web development fundamentals in creati
 
 - JavaScript adds interactivity and handles data dynamically, allowing actions such as logging in, transferring funds, and more
 
-This project is ideal for those wanting to strengthen their skills in web development essentials—HTML, CSS, and JavaScript—while incorporating data handling and real-time updates.
+This project is ideal for those wanting to strengthen their skills in web development essentials (HTML, CSS, and JavaScript) while incorporating data handling and real-time updates.
